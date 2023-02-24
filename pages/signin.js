@@ -4,10 +4,8 @@ import { firebaseApp, auth } from "../src/config/firebase.config";
 import async from "@firebase/util";
 import Head from "next/head";
 import Image from "next/image";
-const { login, signup, currentUser } = useAuth()
 import pic from '../public/pic.png'
 import { useState } from "react";
-import { useAuth } from '../context/AuthContext'
 
 const signin = () => {
   const provider = new GoogleAuthProvider();
@@ -20,11 +18,7 @@ const signin = () => {
   const [password,setPassword] = useState("")
 
 
-  const email_sign = async()=>{
-    await signup(email, password)
-
-
-  }
+  
   return (
     <>
     <Head>

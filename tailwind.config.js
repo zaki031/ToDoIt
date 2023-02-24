@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bg': "url('../public/Sprinkle.svg')",
+        'bg': "url('../public/bg.jpg')",
       },
       colors: {
         'main': '#DA7534',

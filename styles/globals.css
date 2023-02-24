@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.txt h1{
+    background:
+   linear-gradient(-225deg,#0000 10px,#DA7534 10px) bottom left,
+   linear-gradient(-45deg ,#0000 10px,#DA7534 10px) bottom right;
+ background-size: 60% 10px;
+ background-repeat: no-repeat;
+ padding: 0 15px 5px;
+ -webkit-box-decoration-break: clone;
+ box-decoration-break: clone; 
+ 
+}

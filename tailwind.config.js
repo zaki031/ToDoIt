@@ -15,6 +15,8 @@ module.exports = {
       },
       colors: {
         'main': '#DA7534',
+        'moin': '#e49d71',
+        'muoin': "#ed7a32",
       },
     }
   },

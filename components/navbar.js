@@ -6,7 +6,7 @@ const navbar = () => {
         <a className='text-2xl'>ToDo It</a>
 
         <div className="justify-between flex gap-[50px] links">
-            <a href="/login" className='text-xl'>Login</a>
+            <a href="/login" className='text-xl mt-[5px]'>Login</a>
             <a href="/signin" className='p-2 px-3 text-white shadow-md rounded-xl bg-main hover:bg-transpaent '>Sign in</a>
         </div>
     </div>

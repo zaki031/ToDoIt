@@ -22,12 +22,12 @@ export default function Home() {
       </Head>
 
 
-      <div className="flex h-full p-4 top bg-bg justify-evenly pb-[50px]">
+      <div className="lg:flex h-full p-4 top bg-bg justify-evenly pb-[50px]">
 
-    <div className="right mt-[-50px]">
-         <h1 className="text-8xl ml-[100px] font-semibold mt-[200px]">ToDo It</h1>
+    <div className="right  mt-[-50px]">
+         <h1 className="text-8xl lg:ml-[100px]  font-semibold mt-[200px] ">ToDo It</h1>
          <br /><br />
-      <p className="ml-[100px] text-3xl max-w-[600px]">
+      <p className=" text-3xl lg:ml-[100px] max-w-[600px]">
         Simply and smartly manage your projects and ideas at one place.
       </p>
       <br />
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="flex gap-[30px] txt">
         <a
           href="/signin"
-          className="px-5  bg-main p-3 rounded-xl ml-[100px] text-white"
+          className="px-5  bg-main p-3 rounded-xl lg:ml-[100px] text-white"
         >
           Get started !
         </a>
@@ -43,7 +43,7 @@ export default function Home() {
         <LinkS
                   smooth={true}
                   to="second"
-                  className="p-3 bg-white rounded-xl w-[200px] text-center"
+                  className="p-3 bg-white rounded-xl w-[200px] pointer text-center"
                 >
                   See more <i className="uil uil-arrow-down "></i>
                 </LinkS>
@@ -51,7 +51,7 @@ export default function Home() {
       
 
     </div>
-    <Image src={pic} height={300} width={650} className="mt-[50px] rounded-md"></Image>
+    <Image src={pic} height={300} width={700} className="mt-[50px] rounded-md"></Image>
 
       </div>
 
@@ -61,12 +61,12 @@ export default function Home() {
 
 
       <section name='second'>
-        <div className="flex p-4 second_section justify-evenly">
-        <Image className="rounded-md" src={scnd} width={400} height={300}></Image>
+        <div className="p-4 lg:flex justify-evenly second_section">
+        <Image className="rounded-md w-[700px] h-[600px] object-cover  " src={scnd} width={500} height={300}></Image>
 
-          <div className="txt mt-[50px] justify-center font-medium">
-            <h1 className="text-6xl">More easy and efficient insights</h1>
-            <div className=" sub ml-[100px] mt-[100px]">
+          <div className="txt ml-[40px] mt-[150px] justify-left bg-red font-medium">
+            <h1 className="text-[3.1rem] font-bold">More easy  and <span className="text-main"> Efficient</span>  insights</h1>
+            <div className=" sub  font-semibold mt-[50px]">
               <h4 className="text-2xl mt-[30px]"><i class="uil uil-check-circle text-main"></i> Drag and Drop task listing</h4>
             <h4 className="text-2xl mt-[30px] "><i class="uil uil-check-circle text-main"></i> Know you work  progress</h4>
             <h4 className="text-2xl mt-[30px]"><i class="uil uil-check-circle text-main"></i> Totaly free</h4>

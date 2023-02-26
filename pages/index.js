@@ -66,11 +66,11 @@ export default function Home() {
           <div className="txt ml-[40px] mt-[150px] justify-left bg-red font-medium">
             <h1 className="text-[3.1rem] font-bold">More easy  and <span className="text-main"> Efficient</span>  insights</h1>
             <div className=" sub  font-semibold mt-[50px]">
-              <h4 className="text-2xl mt-[30px]"><i class="uil uil-check-circle text-main"></i> Drag and Drop task listing</h4>
-            <h4 className="text-2xl mt-[30px] "><i class="uil uil-check-circle text-main"></i> Know you work  progress</h4>
-            <h4 className="text-2xl mt-[30px]"><i class="uil uil-check-circle text-main"></i> Totaly free</h4>
+              <h4 className="text-2xl mt-[30px]"><i className="uil uil-check-circle text-main"></i> Drag and Drop task listing</h4>
+            <h4 className="text-2xl mt-[30px] "><i className="uil uil-check-circle text-main"></i> Know you work  progress</h4>
+            <h4 className="text-2xl mt-[30px]"><i className="uil uil-check-circle text-main"></i> Totaly free</h4>
 
-            <h4 className="text-2xl mt-[30px]"><i class="uil uil-check-circle text-main"></i> Easy to use</h4>
+            <h4 className="text-2xl mt-[30px]"><i className="uil uil-check-circle text-main"></i> Easy to use</h4>
 
             </div>
             

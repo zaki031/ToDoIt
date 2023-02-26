@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-import bg from "../public/sprinkle.svg";
 import Navbar from "../components/navbar";
 import pic from "../public/head.jpg";
 const inter = Inter({ subsets: ["latin"] });

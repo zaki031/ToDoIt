@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar";
 import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword } from "firebase/auth";
 import  firebaseApp  from "../src/config/firebase.config";
-import auth from "../src/config/firebase.config";
+import {auth} from "../src/config/firebase.config";
 import async from "@firebase/util";
 import Head from "next/head";
 import Image from "next/image";

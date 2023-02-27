@@ -98,7 +98,7 @@ export default function Home() {
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
              <div className="hh">
-              <h1>Benatoch Imed</h1> <br />
+              <h1>Kaddour Yazid</h1> <br />
             <div className="dmm ml-[-10px] mt-[-30px]">
                               <i class="uil uil-star  text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i>
 
@@ -108,13 +108,13 @@ export default function Home() {
               
             </div>
             <br />
-            <p className="text-xl text-left">ToDoit really helped me as a software engineer.i used it to clearify my project goals and follow my work progress.</p>
+            <p className="text-xl text-left">reprehenderit inventore vae, blanditiis necessitati animi. Rem, nam. Deserunt, labore.</p>
           </div>
           <div className="card  bg-white  p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
             <div className="hh">
-              <h1>Benatoch Imed</h1> <br />
+              <h1>Brahimi mehdi</h1> <br />
             <div className="dmm mt-[-30px] ml-[-10px]">
                               <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i>
 
@@ -130,8 +130,8 @@ export default function Home() {
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
             <div className="hh">
-              <h1 className="">Benatoch Imed</h1> <br />
-            <div className="dmm mt-[-30px] ml-[-10px]">
+              <h1 className="">Bouhnifi Nourhen</h1> <br />
+            <div className="dmm mt-[-30px] ml-[-30px]">
                               <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i>
 
               </div>
@@ -139,7 +139,7 @@ export default function Home() {
              </div>
             </div>
             <br />
-            <p className="text-xl text-left">ToDoit really helped me as a software engineer.i used it to clearify my project goals and follow my work progress.</p>
+            <p className="text-xl text-left">ToDoit did what it's supposed to do, it helped me todo it!</p>
           </div>
         </div>
 

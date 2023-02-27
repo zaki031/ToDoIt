@@ -9,11 +9,7 @@ import pic from '../public/pic.png'
 import { useState } from "react";
 
 const signin = () => {
-  const provider = new GoogleAuthProvider();
-  const signIn =  async () => {
-    await signInWithPopup(auth,provider);
-  };
-
+  
 
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")

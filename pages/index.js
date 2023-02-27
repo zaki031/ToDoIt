@@ -27,12 +27,12 @@ export default function Home() {
       </Head>
 
 
-      <div className="lg:flex h-full p-4 top bg-bg justify-evenly pb-[50px]">
+      <div className="lg:flex h-full p-4 top  justify-evenly pb-[50px]">
 
     <div className="right  mt-[-50px]">
-         <h1 className="text-8xl lg:ml-[100px]  font-semibold mt-[200px] ">ToDo It</h1>
+         <h1 className="text-5xl   font-semibold mt-[200px] ">Set your goals and reach them</h1>
          <br /><br />
-      <p className=" text-3xl lg:ml-[100px] max-w-[600px]">
+      <p className=" text-3xl  max-w-[600px]">
         Simply and smartly manage your projects and ideas at one place.
       </p>
       <br />
@@ -40,7 +40,7 @@ export default function Home() {
       <div className="flex gap-[30px] txt">
         <a
           href="/signin"
-          className="px-5  bg-main p-3 rounded-xl lg:ml-[100px] text-white"
+          className="p-3 px-5 text-white bg-main rounded-xl"
         >
           Get started !
         </a>
@@ -48,7 +48,7 @@ export default function Home() {
         <LinkS
                   smooth={true}
                   to="second"
-                  className="p-3 bg-white rounded-xl w-[200px] pointer text-center"
+                  className="p-3 bg-white rounded-xl border-main border-2 w-[200px] pointer text-center"
                 >
                   See more <i className="uil uil-arrow-down "></i>
                 </LinkS>
@@ -83,11 +83,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <br /><br /><br /><br /><br></br>
+      <br /><br /><br />
 
-      <section>
+      <section className="bg-bg2">
       
-        <div className="text-center bg-bg2 third_section">
+        <div className="text-center third_section">
         <br /><br /><br /><br /><br />
           <h1 className="font-bold text-[3.5rem]">We are obsessed with your <span className="text-white">Success</span></h1>
         <br />
@@ -145,6 +145,16 @@ export default function Home() {
 
         
         </div>
+
+        <div className="footer">
+          <h1 className="text-[3.5rem] font-semibold text-center">Get started with <span className="text-white">ToDoIt</span></h1>
+       <br /><br />
+       <div className="justify-center flex lg:gap-[100px] gap-[50px] btns">
+                    <button className="p-3 text-white bg-main rounded-xl">Start crushing goals now !</button>
+                    <button className="p-3 bg-white rounded-xl">Contact us</button>
+       </div>
+        </div>
+        <br /><br /><br />
 
 
       </section>

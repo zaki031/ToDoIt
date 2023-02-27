@@ -7,6 +7,12 @@ import pic from "../public/head.jpg";
 const inter = Inter({ subsets: ["latin"] });
 import { Link as LinkS } from "react-scroll";
 import scnd from "../public/2ndsec.jpg"
+import pic1 from "../public/pic1.jpg"
+import pic2 from "../public/pic2.jpg"
+import pic3 from "../public/pic3.jpg"
+import Slider from "../components/slider"
+
+
 export default function Home() {
   return (
     <div className="">
@@ -77,6 +83,73 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <br /><br /><br /><br /><br></br>
+
+      <section>
+      
+        <div className="text-center bg-bg2 third_section">
+        <br /><br /><br /><br /><br />
+          <h1 className="font-bold text-[3.5rem]">We are obsessed with your <span className="text-white">Success</span></h1>
+        <br />
+         <br /><br />
+        
+        <div className="lg:flex cards justify-evenly pb-[50px]">
+          <div className="card bg-white  p-6 rounded-xl shadow-xl    m-5       max-w-[350px]">
+            <div className="flex profile gap-[30px] ">
+            <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
+             <div className="hh">
+              <h1>Benatoch Imed</h1> <br />
+            <div className="dmm ml-[-10px] mt-[-30px]">
+                              <i class="uil uil-star  text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i>
+
+              </div>
+
+             </div>
+              
+            </div>
+            <br />
+            <p className="text-xl text-left">ToDoit really helped me as a software engineer.i used it to clearify my project goals and follow my work progress.</p>
+          </div>
+          <div className="card  bg-white  p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
+            <div className="flex profile gap-[30px] ">
+            <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
+            <div className="hh">
+              <h1>Benatoch Imed</h1> <br />
+            <div className="dmm mt-[-30px] ml-[-10px]">
+                              <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i>
+
+              </div>
+
+             </div>
+              
+            </div>
+            <br />
+            <p className="text-xl text-left">ToDoit really helped me as a software engineer. I used it to clearify my project goals and follow my work progress.</p>
+          </div>
+          <div className="card bg-white   p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
+            <div className="flex profile gap-[30px] ">
+            <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
+            <div className="hh">
+              <h1 className="">Benatoch Imed</h1> <br />
+            <div className="dmm mt-[-30px] ml-[-10px]">
+                              <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i> <i class="uil uil-star text-main"></i>
+
+              </div>
+
+             </div>
+            </div>
+            <br />
+            <p className="text-xl text-left">ToDoit really helped me as a software engineer.i used it to clearify my project goals and follow my work progress.</p>
+          </div>
+        </div>
+
+        
+        </div>
+
+
+      </section>
+      
+      
 
 
       

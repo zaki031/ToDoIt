@@ -1,26 +1,14 @@
 import Navbar from "../components/navbar";
-import  firebaseApp  from "../src/config/firebase.config";
-import async from "@firebase/util";
 import Head from "next/head";
 import Image from "next/image";
 import pic from '../public/pic.png'
 import { useState } from "react";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const signin = () => {
   
 
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
-  const auth = getAuth()
-
-  const signup = () =>{
-
-    createUserWithEmailAndPassword(auth ,email, password)
-    .then((cred)=>{
-      console.log("cv")
-    })
-  }
 
 
   

@@ -10,7 +10,6 @@ import scnd from "../public/2ndsec.jpg"
 import pic1 from "../public/pic1.jpg"
 import pic2 from "../public/pic2.jpg"
 import pic3 from "../public/pic3.jpg"
-import Slider from "../components/slider"
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 

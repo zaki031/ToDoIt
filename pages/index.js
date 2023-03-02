@@ -11,9 +11,14 @@ import pic1 from "../public/pic1.jpg"
 import pic2 from "../public/pic2.jpg"
 import pic3 from "../public/pic3.jpg"
 import Slider from "../components/slider"
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+
+
 
 
 export default function Home() {
+
   return (
     <div className="">
       <Navbar />
@@ -27,16 +32,19 @@ export default function Home() {
       </Head>
 
 
-      <div className="lg:flex h-full p-4 top  justify-evenly pb-[50px]">
+      <div className="lg:flex  p-4 top  justify-evenly pb-[50px]">
 
     <div className="right  mt-[-50px]">
+      <Slide top>
          <h1 className="text-5xl   font-semibold mt-[200px] ">Set your goals and reach them</h1>
          <br /><br />
       <p className=" text-3xl  max-w-[600px]">
         Simply and smartly manage your projects and ideas at one place.
       </p>
+      </Slide>
       <br />
       <br />
+      <Fade left>
       <div className="flex gap-[30px] txt">
         <a
           href="/signin"
@@ -53,11 +61,14 @@ export default function Home() {
                   See more <i className="uil uil-arrow-down "></i>
                 </LinkS>
       </div>
+      </Fade>
       
 
     </div>
-    <Image src={pic} height={300} width={700} className="mt-[50px] rounded-md"></Image>
+    <Slide right>
 
+    <Image src={pic} height={300} width={700} className="mt-[50px] rounded-md"></Image>
+    </Slide>
       </div>
 
 
@@ -67,8 +78,9 @@ export default function Home() {
 
       <section name='second'>
         <div className="p-4 lg:flex justify-evenly second_section">
+          <Slide left>
         <Image className="rounded-md w-[700px] h-[600px] object-cover  " src={scnd} width={500} height={300}></Image>
-
+</Slide>
           <div className="txt ml-[40px] mt-[150px] justify-left bg-red font-medium">
             <h1 className="text-[3.1rem] font-bold">More easy  and <span className="text-main"> Efficient</span>  insights</h1>
             <div className=" sub  font-semibold mt-[50px]">

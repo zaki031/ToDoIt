@@ -1,18 +1,26 @@
 import Navbar from "../components/navbar";
-import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword } from "firebase/auth";
 import  firebaseApp  from "../src/config/firebase.config";
-import {auth} from "../src/config/firebase.config";
 import async from "@firebase/util";
 import Head from "next/head";
 import Image from "next/image";
 import pic from '../public/pic.png'
 import { useState } from "react";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 const signin = () => {
   
 
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
+  const auth = getAuth()
+
+  const signup = () =>{
+
+    createUserWithEmailAndPassword(auth ,email, password)
+    .then((cred)=>{
+      console.log("cv")
+    })
+  }
 
 
   
@@ -37,7 +45,7 @@ const signin = () => {
 
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} name="pass" id="" placeholder="dont show your password to anyone" className="w-full py-3 pl-3 border-2 rounded-md border-main focus:border-main focus:outline-none" />
      <br /><br />
-     <button type="submit" onClick={()=> email_sign()} className="w-full p-3 text-white rounded-md bg-main">Create your account</button>
+     <button type="submit" onClick={()=> signup()} className="w-full p-3 text-white rounded-md bg-main">Create your account</button>
     <br />
     <div className="w-full my-2 text-center or">
             <h5 className="m-auto text-gray-300">Or</h5>

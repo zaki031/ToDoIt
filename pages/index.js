@@ -80,6 +80,8 @@ export default function Home() {
           <Slide left>
         <Image className="rounded-md w-[700px] h-[600px] object-cover  " src={scnd} width={500} height={300}></Image>
 </Slide>
+<Fade top>
+
           <div className="txt ml-[40px] mt-[150px] justify-left bg-red font-medium">
             <h1 className="text-[3.1rem] font-bold">More easy  and <span className="text-main"> Efficient</span>  insights</h1>
             <div className=" sub  font-semibold mt-[50px]">
@@ -91,7 +93,10 @@ export default function Home() {
 
             </div>
             
+            
           </div>
+          </Fade>
+
         </div>
       </section>
       <br /><br /><br />
@@ -100,11 +105,14 @@ export default function Home() {
       
         <div className="text-center third_section">
         <br /><br /><br /><br /><br />
+        <Fade top>
           <h1 className="font-bold text-[3.5rem]">We are obsessed with your <span className="text-white">Success</span></h1>
+          </Fade>
         <br />
          <br /><br />
         
         <div className="lg:flex cards justify-evenly pb-[50px]">
+          <Slide left>
           <div className="card bg-white  p-6 rounded-xl shadow-xl    m-5       max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
@@ -121,6 +129,8 @@ export default function Home() {
             <br />
             <p className="text-xl text-left">reprehenderit inventore vae, blanditiis necessitati animi. Rem, nam. Deserunt, labore.</p>
           </div>
+          </Slide>
+          <Fade bottom>
           <div className="card  bg-white  p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
@@ -137,6 +147,8 @@ export default function Home() {
             <br />
             <p className="text-xl text-left">ToDoit really helped me as a software engineer. I used it to clearify my project goals and follow my work progress.</p>
           </div>
+          </Fade>
+          <Slide right>
           <div className="card bg-white   p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
@@ -152,18 +164,23 @@ export default function Home() {
             <br />
             <p className="text-xl text-left">ToDoit did what it's supposed to do, it helped me todo it!</p>
           </div>
+          </Slide>
         </div>
 
         
         </div>
 
         <div className="footer">
+          <Fade top>
           <h1 className="text-[3.5rem] font-semibold text-center">Get started with <span className="text-white">ToDoIt</span></h1>
+          </Fade>
        <br /><br />
+       <Slide bottom>
        <div className="justify-center flex lg:gap-[100px] gap-[50px] btns">
                     <button className="p-3 text-white bg-main rounded-xl">Start crushing goals now !</button>
                     <button className="p-3 bg-white rounded-xl">Contact us</button>
        </div>
+       </Slide>
         </div>
         <br /><br /><br />
 

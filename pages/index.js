@@ -20,7 +20,6 @@ export default function Home() {
 
   return (
     <div className="">
-      <Navbar />
 
       <Head>
         <title>ToDo it</title>
@@ -113,7 +112,7 @@ export default function Home() {
         
         <div className="lg:flex cards justify-evenly pb-[50px]">
           <Slide left>
-          <div className="card bg-white  p-6 rounded-xl shadow-xl    m-5       max-w-[350px]">
+          <div className="card bg-white  p-6 rounded-xl shadow-xl     m-auto my-5       max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
              <div className="hh">
@@ -131,7 +130,7 @@ export default function Home() {
           </div>
           </Slide>
           <Fade bottom>
-          <div className="card  bg-white  p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
+          <div className="card  bg-white  p-6 rounded-xl shadow-xl     m-auto my-5        max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
             <div className="hh">
@@ -149,7 +148,7 @@ export default function Home() {
           </div>
           </Fade>
           <Slide right>
-          <div className="card bg-white   p-6 rounded-xl shadow-xl    m-5        max-w-[350px]">
+          <div className="card bg-white   p-6 rounded-xl shadow-xl    m-auto  my-5        max-w-[350px]">
             <div className="flex profile gap-[30px] ">
             <Image src={pic1} width={30} height={0} className="rounded-[50%] w-[50px] h-[50px]"></Image>
             <div className="hh">
